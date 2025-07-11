@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: Arial, sans-serif;
+}
+
+.left-section {
+    width: 60%;
+    padding: 40px;
+    margin-left: 40px;
+}
+
+.right-section {
+    width: 40%;
+    position: relative;
+}
+
+.album-art {
+    width: 100%;
+}
+
+.secondary-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 270px;
+    height: 270px;
+}
+
+.song-container {
+    margin-top: 10px;
+}
+
+.song-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.song-cover {
+    width: 130px;
+    height: 130px;
+    margin-right: 20px;
+}
+
+.song-info {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.song-title {
+    color:  #1d3985;
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+audio {
+    
+    width: 160%;
+    max-width: 600px; /* عرض بیشتر */
+    height: 60  px; /* ارتفاع بیشتر */
+    min-width: 300px; /* حداقل عرض */
+}
+audio::-webkit-media-controls-panel {
+    background: linear-gradient(#ea3085) !important;
+}
