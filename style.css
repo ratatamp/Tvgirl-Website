@@ -95,9 +95,6 @@ nav ul li.logo-li {
 
 .text-container {
     position: absolute;
-    top: 194px;       /* جایگزین margin-top اولین h4 */
-    left: 200px;      /* جایگزین margin-left اولین h4 */
-/*     width: 700px;     /* عرض مناسب برای متن */ */
     color: #1d3985;
     font-family: Arial, sans-serif;
 }
