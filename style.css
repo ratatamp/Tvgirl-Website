@@ -92,3 +92,29 @@ nav ul li.logo-li {
 }
 
 
+
+
+.albums{
+    margin-top: 10%;
+    /* margin-right: 4%; */
+    font-size: 4.7vh;
+}
+
+.names{
+    color:#1d3985;
+    text-decoration: none
+}
+
+.link{
+    text-align: left;
+    font-size: 3vh;
+    margin-top: 3%;
+}
+
+
+a.signin{
+    color: #ea3085;
+    
+}
+
+
