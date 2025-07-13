@@ -73,26 +73,27 @@ nav ul {
   box-sizing: border-box;
 }
 
-/* ظاهر شدن منو هنگام تیک خوردن چک‌باکس */
 #inputtag:checked ~ ul {
-  transform: translateX(0);
+    transform: translateX(0);
+
 }
+#inputtag:checked ~ label span{
+background-color:#1d3985;
 
-nav ul li {
-    position: relative;  /* اضافه */
-    text-align: left;
-    color: rgb(47, 24, 255);
-    cursor: pointer;
-    padding: 8px 0;
-    /* حذف margin-bottom اگر هست */
 }
-
-nav ul li.logo-li {
-    position: relative; /* اضافه */
+#inputtag:checked ~ label span.middle {
+opacity: 0;
 }
+#inputtag:checked ~ label span.top{
+transform: rotate(-45deg);
+top: 3px;
 
+}
+#inputtag:checked ~ label span.bottom {
+    transform: rotate(45deg);
+    top: -3px;
 
-
+}
 
 .albums{
     margin-top: 10%;
@@ -107,7 +108,7 @@ nav ul li.logo-li {
 
 .link{
     text-align: left;
-    font-size: 6vh;
+    font-size: 3vh;
     margin-top: 3%;
 }
 
@@ -116,5 +117,7 @@ a.signin{
     color: #ea3085;
     
 }
+
+
 
 
