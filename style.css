@@ -73,6 +73,18 @@ nav ul {
   box-sizing: border-box;
 }
 
+nav ul li{
+    text-align: left;
+    /* margin-bottom: 10px; */
+    color: rgb(47, 24, 255);
+    cursor: pointer;
+    transform: 0.3s;
+    padding: 8px 0;
+}
+nav ul li:hover{
+    color: #ea3085;
+    transition: 0.3s;
+}
 #inputtag:checked ~ ul {
     transform: translateX(0);
 
@@ -117,6 +129,8 @@ a.signin{
     color: #ea3085;
     
 }
+
+
 
 
 
